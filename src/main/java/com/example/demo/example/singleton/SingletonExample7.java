@@ -1,5 +1,6 @@
 package com.example.demo.example.singleton;
 
+import com.example.demo.annotations.Recommend;
 import com.example.demo.annotations.ThreadSafe;
 import org.omg.CORBA.PRIVATE_MEMBER;
 
@@ -12,6 +13,7 @@ import org.omg.CORBA.PRIVATE_MEMBER;
  * @Version 1.0
  **/
 @ThreadSafe
+@Recommend
 public class SingletonExample7 {
 
     private SingletonExample7()
