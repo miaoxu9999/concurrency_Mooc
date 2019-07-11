@@ -1,5 +1,6 @@
 package com.example.demo.example.atomic;
 
+import com.example.demo.annotations.ThreadSafe;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -13,6 +14,7 @@ import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
  * @Version 1.0
  **/
 @Slf4j
+@ThreadSafe
 public class AtomicExample5 {
     private static AtomicIntegerFieldUpdater<AtomicExample5> updater = AtomicIntegerFieldUpdater.newUpdater(AtomicExample5.class, "count");
 
