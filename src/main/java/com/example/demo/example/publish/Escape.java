@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @ClassName Escape
- * @Description TODO
+ * @Description 对象发布逸出的例子
  * @Author miaoxu
  * @Date 2019/7/11 22:46
  * @Version 1.0
